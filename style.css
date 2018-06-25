@@ -1,0 +1,60 @@
+body {
+  background-color: #eeeeee;
+}
+
+.mdl-card__title-text {
+  font-weight: bold;
+}
+
+.mdl-list__item {
+  box-shadow: 0 0px 0.1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.mdl-list__item:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.content-grid {
+  max-width: 960px;
+}
+
+.mdl-card__actions > .mdl-button--colored {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.actionbar {
+  display: block;
+  height: 60px;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.sort {
+  height: 40px;
+}
+.highlight {
+  border: 5px solid blue;
+}
+
+.mdl-card {
+  max-width: 100%;
+}
+
+.mdl-card__title-text {
+  width: 100%;
+}
+
+.mdl-card__title-text {
+  word-break: break-all;
+}
+
+.mdl-list__item-primary-content {
+  width: 100%;
+}
+
+.mdl-switch {
+  width: 10%;
+}
